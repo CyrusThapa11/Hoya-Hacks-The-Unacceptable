@@ -1,9 +1,23 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bgDark: '#090909',
+      },
+      zIndex: {
+        "-1": "-1",
+      },
+    },
+    fontFamily: {
+      'dancingScript': ['Dancing Script'],
+      'sourceSerifPro': ['Source Serif Pro'],
+      "fontVollkorn": ['Vollkorn']
+    }
+  },
+  variants: {
+    borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
   },
   plugins: [],
 }
