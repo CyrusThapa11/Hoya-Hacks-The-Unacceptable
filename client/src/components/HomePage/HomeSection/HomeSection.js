@@ -5,8 +5,8 @@ function HomeSection() {
   return (
       <Fragment>
         <div className="xl:max-w-[1350px] 2xl:max-w-[1490px] 2xl:ml-[35px] mt-6 mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center">
-            <div className="space-y-8 ">
-                <h1 className="font-bold text-[#6F5DE0] text-5xl w-[650px]">We are One</h1>
+            <div className="space-y-8 ml-[20px] lg:ml-0 mt-[100px] lg:mt-0 mb-[100px] lg:mb-0">
+                <h1 className="font-bold text-[#6F5DE0] text-3xl lg:text-5xl w-[650px]">We are One</h1>
                 <p className="xl:w-[510px] 2xl:w-[550px] text-[22px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris tortor ultrices eu faucibus tellus.
                 </p>

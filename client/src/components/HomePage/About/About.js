@@ -14,9 +14,9 @@ function About() {
                 className="sm:hidden lg:inline-block lg:w-[950px] lg:h-[750px] justify-center bg-no-repeat ml-[-78px]"
                 style={{ backgroundImage: `url(${AboutBg})` }}
             ></div>
-            <div className="space-y-6 xl:ml-[-16px] 2xl:ml-[50px] mt-[-80px]">
-                <h1 className="font-bold text-[#6F5DE0] text-6xl">We are One</h1>
-                <p className="w-[680px] text-2xl">
+            <div className="space-y-6 ml-[20px] lg:ml-0 xl:ml-[-16px] 2xl:ml-[50px] mt-[-80px]  lg:mt-0 mb-[100px] lg:mb-0">
+                <h1 className="font-bold text-[#6F5DE0] text-4xl lg:text-5xl">We are One</h1>
+                <p className="w-[340px] lg:w-[680px] text-2xl">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris tortor ultrices eu faucibus tellus.
                 </p>
                 {/* <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
