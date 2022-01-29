@@ -19,7 +19,7 @@ function Features() {
                 too!
                 </p>
             </div>
-            <div className="grid grid-cols-4 mt-[-120px] mb-5" >
+            <div className="grid grid-cols-2 lg:grid-cols-4 mt-[-120px] mb-5" >
                 <div className="bg-[#ECB924] xl:w-[320px] xl:h-[580px]  2xl:w-[350px] 2xl:h-[590px] rounded-lg" data-aos="fade-up" data-aos-delay="100">
                     <div className="max-w-[300px] mx-auto py-8 space-y-8">
                         <h1 className="text-white text-3xl font-bold">Virtual Verification</h1>
