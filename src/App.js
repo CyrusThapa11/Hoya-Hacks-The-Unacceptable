@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React from "react";
 import { auth } from './services/firebase.js'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import Main from "./container/Main";
@@ -9,7 +9,7 @@ function App() {
   const [user] = useAuthState(auth);
 
   return (
-    <div>
+    <div className="font-montserrat">
       {user ?
         <Main />
         :

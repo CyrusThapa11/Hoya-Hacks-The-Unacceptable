@@ -15,9 +15,9 @@ function Chat() {
             <div className="border-2 border-indigo-500 rounded-t-md bg-gray-800 p-4 w-96 overflow-y-scroll flex flex-col h-128 max-w-7xl min-w-7xl">
                 {messages.map(({ id, text, photoURL, uid }) => (
                     <div>
-                        <div key={id} className={`msg ${uid === auth.currentUser.uid ? 'sent' : 'received'}`}>
+                        <div key={id} className={`flex p-5 items-center mx-5 my-1 rounded-full ${uid === auth.currentUser.uid ? 'sent' : 'received'}`}>
                             <img className='bg-black rounded-full h-12 w-12 border-2 border-black' src={photoURL} alt="" />
-                            <p className='font-medium text-md ml-2 mr-2 break-words'>yghbjlk</p>
+                            <p className='font-medium text-md ml-2 mr-2 break-words'>{text}</p>
                         </div>
                     </div>
                 ))}

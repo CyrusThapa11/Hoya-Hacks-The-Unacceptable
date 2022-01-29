@@ -13,7 +13,7 @@ function DetailsSection() {
             <div className="space-y-6 ml-[20px] lg:ml-0">
                 <h1 className="font-bold text-[#6F5DE0] text-4xl lg:text-6xl">Services</h1>
                 <p className="w-[350px] lg:w-[550px] text-2xl">
-                    Listed services our company provides:
+                    Listed services our Hitech provides:
                 </p>
                 {/* <button className="bg-[#6F5DE0] hover:bg-[#6F5DE0] text-white font-bold py-4 px-12 rounded">
                     START NOW

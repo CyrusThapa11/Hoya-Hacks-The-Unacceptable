@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { firestore, auth } from '../services/firebase'
 import firebase from 'firebase'
-import { Input, Button } from '@material-ui/core'
 
 function SendMessage({ scroll }) {
     const [msg, setMsg] = useState('')

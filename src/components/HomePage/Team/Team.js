@@ -18,7 +18,7 @@ function Team() {
         <div className="grid grid-row-2 lg:grid-rows-2 space-y-2 ">
           <h1 className="font-bold text-[#6F5DE0] text-6xl">Our Team</h1>
           <p className="xl:w-[700px] 2xl:w-[700px]  text-2xl">
-          Meet our exceptionally talented team that made the Starx Company a huge success.
+          Meet our exceptionally talented team that made the Starx Hitech a huge success.
           </p>
           <div className=" mb-5 w-[1200px] ml-[-530px] 2xl:ml-[-500px]">
           <TeamMembers />

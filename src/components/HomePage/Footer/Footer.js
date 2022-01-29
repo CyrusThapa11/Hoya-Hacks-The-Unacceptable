@@ -32,7 +32,7 @@ function Footer() {
           <p><a href="#features">Features</a></p>
           <p><a href='#team'>Team</a></p>
         </div>
-        <p className='w-[380px] mt-[50px]'>© Copyright Company. All Rights Reserved
+        <p className='w-[380px] mt-[50px]'>© Copyright Hitech. All Rights Reserved
 Made in Hoya Hacks by The Unacceptables</p>
       </div>
     </footer>

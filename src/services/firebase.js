@@ -1,13 +1,13 @@
 import firebase from 'firebase'
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAgbePxdBusXTwMd9omS8BVLVERNTqmZWE",
-  authDomain: "skillcept-74faf.firebaseapp.com",
-  projectId: "skillcept-74faf",
-  storageBucket: "skillcept-74faf.appspot.com",
-  messagingSenderId: "1016124352405",
-  appId: "1:1016124352405:web:aa401fbfa0d329e73eb89c",
-  measurementId: "G-3W0QP755F4"
+  apiKey: "AIzaSyAhoRHpYDGO1GqajmANe-n6W1fynREnrUI",
+  authDomain: "hitech-c86fa.firebaseapp.com",
+  projectId: "hitech-c86fa",
+  storageBucket: "hitech-c86fa.appspot.com",
+  messagingSenderId: "566445306479",
+  appId: "1:566445306479:web:855d4d885f0efbac80d39a",
+  measurementId: "G-GX0Y77EMS3"
 })
 
 const firestore = firebase.firestore()

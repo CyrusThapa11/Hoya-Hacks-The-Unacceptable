@@ -29,7 +29,7 @@ function Header() {
               <div className="flex-shrink-0">
                 <Link to="/">
                   <p className='className="w-52 xs:w-60 md:w-64 self-center  text-[#6F5DE0] font-bold text-2xl'>
-                    Company
+                    Hitech
                   </p>
                 </Link>
               </div>
@@ -39,25 +39,19 @@ function Header() {
                     href="/"
                     className="text-white text-lg px-3 py-2 font-medium"
                   >
-                    About
+                    Home
                   </a>
                   <a
-                    href="#services"
+                    href="/explore"
                     className="text-white text-lg px-3 py-2 font-medium"
                   >
-                    Services
+                    Learn
                   </a>
                   <a
-                    href="#features"
+                    href="/chat"
                     className="text-white text-lg px-3 py-2 font-medium"
                   >
-                    Features
-                  </a>
-                  <a
-                    href="#team"
-                    className="text-white text-lg px-3 py-2 font-medium"
-                  >
-                    Team
+                    Chatroom
                   </a>
                 </div>
               </div>
@@ -65,13 +59,7 @@ function Header() {
             </div>
             <div className="hidden lg:block">
               <div className="flex items-center space-x-4">
-                {/* <a
-                  href="/store"
-                  className="text-[#0B7EC1] text-lg px-3 py-2 font-medium"
-                >
-                  Login
-                </a> */}
-                <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent'>
+                <button className='bg-[#6F5DE0] text-white py-3 px-8 rounded-md border-4 border-[#6F5DE0] hover:border-transparent' onClick={() => auth.signOut()}>
                   Logout
                 </button>
               </div>
@@ -135,29 +123,24 @@ function Header() {
             <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="/about"
+                  href="/"
                   className="text-white text-lg px-3 py-2 font-medium "
                 >
-                  About
+                  Home
                 </a>
                 <a
-                  href="/aboutmawa"
+                  href="/explore"
                   className="text-white text-lg px-3 py-2 font-medium "
                 >
-                  Details
+                  Learn
                 </a>
                 <a
-                  href="/store"
+                  href="/chat"
                   className="text-white text-lg px-3 py-2 font-medium "
                 >
-                  Team
+                  Chatroom
                 </a>
-                <a
-                  href="/store"
-                  className="text-white text-lg px-3 py-2 font-medium "
-                >
-                  Features
-                </a>
+              
                 <div className='space-x-4'>
                   <button className='bg-[#6F5DE0] text-white py-2 px-8 rounded-md' onClick={() => auth.signOut()}>
                     Logout

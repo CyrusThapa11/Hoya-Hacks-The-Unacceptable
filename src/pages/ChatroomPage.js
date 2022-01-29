@@ -3,7 +3,7 @@ import ChatRoom from "./Chat"
 
 export default function ChatroomPage() {
   return(
-    <div className="pt-16 bg-bgDark">
+    <div className="bg-bgDark">
 
     <div className="grid w-full py-10 place-items-center">
         <h1 className="pb-2 text-5xl text-white font-semibold tracking-wide lg:text-6xl">

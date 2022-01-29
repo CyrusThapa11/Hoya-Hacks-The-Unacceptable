@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         bgDark: '#090909',
+        primary: '#6F5DE0'
       },
       zIndex: {
         "-1": "-1",
@@ -15,9 +16,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      'dancingScript': ['Dancing Script'],
-      'sourceSerifPro': ['Source Serif Pro'],
-      "fontVollkorn": ['Vollkorn']
+      'montserrat': ['Montserrat']
     }
   },
   variants: {
