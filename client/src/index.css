@@ -10,3 +10,9 @@
   margin: 0px;
   padding: 0px;
 }
+
+body {
+  overflow-x: hidden !important;
+  background: #090909;
+  color: white;
+}
