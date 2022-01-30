@@ -140,7 +140,7 @@ function Details() {
 export default function WaterCycle() {
     return (
         <>
-            <div className="pt-24 bg-ARbg">
+            <div className="pt-8 text-white">
 
                 <Link to="/explore" className="ml-8">Go Back</Link>
 
@@ -149,7 +149,7 @@ export default function WaterCycle() {
                         Water Cycle
                     </h1>
                     <div className="inline-flex h-1 bg-indigo-500 rounded-full w-72"></div>
-                    <div className="font-fontVollkorn text-justify text-xl w-86 mt-2 mx-4 md:mx-44">This work is based on "Water Cycle (Animated)" (https://sketchfab.com/3d-models/water-cycle-animated-203e16058fa94e618829447db71ddba4) by Clement (https://sketchfab.com/clement.abai) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)</div>
+                    <div className="font-fontVollkorn text-justify text-xl w-86 mt-2 mx-4 md:mx-44">The water cycle shows the continuous movement of water within the Earth and atmosphere. It is a complex system that includes many different processes. Liquid water evaporates into water vapor, condenses to form clouds, and precipitates back to earth in the form of rain and snow.. This work is based on "Water Cycle (Animated)" (https://sketchfab.com/3d-models/water-cycle-animated-203e16058fa94e618829447db71ddba4) by Clement (https://sketchfab.com/clement.abai) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)</div>
                 </div>
 
                 <div className="md:grid md:grid-cols-3 md:pr-15 pr-1">
@@ -159,7 +159,7 @@ export default function WaterCycle() {
                             <ambientLight intensity={0.7} />
                             <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
                             <Suspense fallback={null}>
-                                <Model scale={0.2} />
+                                <Model scale={0.6} />
                                 <Environment preset="city" />
                                 <ContactShadows rotation-x={Math.PI / 2} position={[0, -0.8, 0]} opacity={0.25} width={10} height={10} blur={1.5} far={0.8} />
                             </Suspense>
